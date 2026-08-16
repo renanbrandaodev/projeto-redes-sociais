@@ -49,8 +49,33 @@ iframe#tela {
     
 }
 
-#mockup {
+iframe#mockup {
     position: absolute;
     z-index: 2;
     pointer-events: none;
+}
+
+section#redes-sociais {
+    text-align: right;
+    position: relative;
+    bottom: 80%;
+    padding-right: 20px;
+    
+    
+}
+
+section#redes-sociais > a > img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.350);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover
+{
+    border: 2.5px solid rgba(255, 255, 255, 0.200);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.350);
+    transition: transform 0.2s;
 }
